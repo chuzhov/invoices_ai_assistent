@@ -1,0 +1,54 @@
+# Ignore the virtual environment
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Ignore the build and distribution directories
+build/
+dist/
+
+# Ignore the compiled Python files
+*.pyc
+*.pyo
+
+# Ignore the IDE-specific files
+.idea/
+.vscode/
+
+# Ignore the generated files
+*.egg-info/
+.eggs/
+*.egg
+
+# Ignore the logs
+*.log
+
+# Ignore the test and coverage reports
+coverage/
+*.coverage
+
+# Ignore the editor backup files
+*.swp
+*.swo
+*.pybuild/
+*.pyclass
+
+
+# Ignore the compiled Stylus files
+*.styl
+
+# Ignore the compiled Handlebars templates
+*.handlebars
+
+# Ignore the compiled Pug files
+*.pug
+
+# Ignore the compiled Jade files
+*.jade
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
